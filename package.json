@@ -8,8 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
@@ -28,6 +28,7 @@
     "react-router-dom": "^6.26.1",
     "react-slick": "^0.30.2",
     "react-spring": "^9.7.4",
+    "rollup": "^4.28.1",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
