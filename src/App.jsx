@@ -45,7 +45,7 @@ function App() {
           <Route path="/createItem" element={<CreateItem />} />
         </Route>
       </Routes>
-    </Router>  {/* Ensure Routes are wrapped with HashRouter (Router now wraps the Routes) */}
+    </Router>  /* Ensure Routes are wrapped with HashRouter (Router now wraps the Routes) */
   );
 }
 
